@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - fix detection of unavailable output format
 
+### Changed
+
+- Autotools libANN detection is now based on the presence of ANN/ANN.h, not
+  `pkg-config` checks
+
 ## [2.50.0] – 2021-12-04
 
 ### Added
