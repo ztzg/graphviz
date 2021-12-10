@@ -2078,7 +2078,7 @@ AC_ARG_WITH(ann,
 if test "x$with_ann" != "xyes"; then
   use_ann="No (disabled)"
 else
-  AC_CHECK_HEADER(ANN/ANN.h, [
+  AC_CHECK_HEADER([ANN/ANN.h], [
     use_ann="Yes"
     AC_DEFINE_UNQUOTED(HAVE_ANN,1,
       [Define if you have the ann library])
